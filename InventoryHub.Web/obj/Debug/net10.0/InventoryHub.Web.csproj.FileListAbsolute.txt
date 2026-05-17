@@ -207,9 +207,6 @@ C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\InventoryHub.Web.xuwme9ewms.wasm
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\InventoryHub.Web.kezth18gvy.pdb
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\dotnet.eiloehjw3y.js
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.zxhwjtv6sc.js.gz
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.y0sndbe2xe.wasm.gz
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.09qh35fcip.wasm.gz
@@ -418,9 +415,6 @@ C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\InventoryHub.Web.xuwme9ewms.wasm.gz
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\InventoryHub.Web.kezth18gvy.pdb.gz
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\dotnet.eiloehjw3y.js.gz
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\InventoryHub.Web.staticwebassets.runtime.json
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\InventoryHub.Web.staticwebassets.endpoints.json
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\InventoryHub.Web.dll
@@ -1111,10 +1105,6 @@ C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\qgwmc6yvhg-{0}-tjcz0u77k5-tjcz0u77k5.gz
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\u6dmn7kxxe-{0}-tptq2av103-tptq2av103.gz
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\ozlu8wfxr4-{0}-lfu7j35m59-lfu7j35m59.gz
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\oh40kmq28m-{0}-xuwme9ewms-xuwme9ewms.gz
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\8kkyrtrwo4-{0}-kezth18gvy-kezth18gvy.gz
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\eygv4ujsfd-{0}-eiloehjw3y-eiloehjw3y.gz
-C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\udtfgqalwt-{0}-ofgvhei5z0-ofgvhei5z0.gz
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\staticwebassets.development.json
@@ -1125,3 +1115,13 @@ C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\refint\InventoryHub.Web.dll
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\InventoryHub.Web.pdb
 C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\ref\InventoryHub.Web.dll
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\InventoryHub.Web.ra815v511z.wasm
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\InventoryHub.Web.84dg1mfpx3.pdb
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\dotnet.4enbgndlae.js
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\InventoryHub.Web.ra815v511z.wasm.gz
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\InventoryHub.Web.84dg1mfpx3.pdb.gz
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\bin\Debug\net10.0\wwwroot\_framework\dotnet.4enbgndlae.js.gz
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\oh40kmq28m-{0}-ra815v511z-ra815v511z.gz
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\8kkyrtrwo4-{0}-84dg1mfpx3-84dg1mfpx3.gz
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\eygv4ujsfd-{0}-4enbgndlae-4enbgndlae.gz
+C:\Users\JetchadaphonChumphu\source\repos\LABFUll\InventoryHub.Web\obj\Debug\net10.0\compressed\udtfgqalwt-{0}-45e3gw98wf-45e3gw98wf.gz

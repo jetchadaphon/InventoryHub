@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "InventoryHub.Web",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-/xm7oyAADD29pM1YZzlaPwujHlM66AzWOkQE1G8HTig=",
+    "hash": "sha256-L4JqfhAAdA70FSv/0A9a3w4bGpioYtc7GuYViARVMV4=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.mx9wzm9o5h.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "InventoryHub.Web.wasm",
-        "name": "InventoryHub.Web.xuwme9ewms.wasm",
-        "integrity": "sha256-2cEH3t+ko4EUSGx2P8bLBwd4T2PEJlFZJD+ieS824JA=",
+        "name": "InventoryHub.Web.ra815v511z.wasm",
+        "integrity": "sha256-Q3GRm6etFPIcE/bg7eIrbZSa8V2ENZWzJ1jmxrEhKj0=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "InventoryHub.Web.pdb",
-        "name": "InventoryHub.Web.kezth18gvy.pdb",
-        "integrity": "sha256-fC3H8U9452J9SfHodHc4kH/kUyz2Jx+NkbQ8VI1D4bU=",
+        "name": "InventoryHub.Web.84dg1mfpx3.pdb",
+        "integrity": "sha256-mHD9lw4rVJG/UfVheyzRzvEAvSkkSBisG8ECxj9NHTY=",
         "cache": "force-cache"
       }
     ],
