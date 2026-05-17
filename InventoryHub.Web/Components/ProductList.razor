@@ -1,0 +1,128 @@
+@using InventoryHub.Web.Models
+@using InventoryHub.Web.Services
+@inject ProductApiClient ProductApiClient
+
+@if (isLoading)
+{
+    <p><em>Loading products...</em></p>
+}
+else
+{
+    if (!string.IsNullOrWhiteSpace(errorMessage))
+    {
+        <div class="alert alert-warning" role="alert">@errorMessage</div>
+    }
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in products)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Quantity</td>
+                    <td>@product.Price.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="d-flex align-items-center gap-2">
+        <button class="btn btn-outline-primary" @onclick="PreviousPage" disabled="@(currentPage <= 1)">Previous</button>
+        <span>Page @currentPage of @totalPages</span>
+        <button class="btn btn-outline-primary" @onclick="NextPage" disabled="@(currentPage >= totalPages)">Next</button>
+    </div>
+}
+
+@code {
+    private readonly int pageSize = 10;
+    private bool isLoading = true;
+    private string? errorMessage;
+    private int currentPage = 1;
+    private int totalPages = 1;
+    private List<Product> products = [];
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProductsAsync(1);
+    }
+
+    private async Task LoadProductsAsync(int page)
+    {
+        isLoading = true;
+        errorMessage = null;
+
+        try
+        {
+            var response = await ProductApiClient.GetProductsAsync(page, pageSize);
+            if (response is null)
+            {
+                throw new InvalidOperationException("The API returned an empty response.");
+            }
+
+            products = response.Items;
+            currentPage = response.PageNumber;
+            totalPages = Math.Max(response.TotalPages, 1);
+        }
+        catch
+        {
+            errorMessage = "The API is unavailable right now. Showing fallback products.";
+            ApplyFallbackData(page);
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private void ApplyFallbackData(int page)
+    {
+        var fallbackProducts = new List<Product>
+        {
+            new() { Id = 1, Name = "Fallback Keyboard", Quantity = 12, Price = 790m },
+            new() { Id = 2, Name = "Fallback Mouse", Quantity = 20, Price = 390m },
+            new() { Id = 3, Name = "Fallback Monitor", Quantity = 8, Price = 4290m },
+            new() { Id = 4, Name = "Fallback Webcam", Quantity = 15, Price = 1590m },
+            new() { Id = 5, Name = "Fallback USB Hub", Quantity = 30, Price = 490m },
+            new() { Id = 6, Name = "Fallback Laptop Stand", Quantity = 10, Price = 650m },
+            new() { Id = 7, Name = "Fallback Headset", Quantity = 18, Price = 990m },
+            new() { Id = 8, Name = "Fallback Power Bank", Quantity = 25, Price = 1200m },
+            new() { Id = 9, Name = "Fallback SSD", Quantity = 11, Price = 2890m },
+            new() { Id = 10, Name = "Fallback Router", Quantity = 6, Price = 2100m },
+            new() { Id = 11, Name = "Fallback HDMI Cable", Quantity = 40, Price = 250m },
+            new() { Id = 12, Name = "Fallback Docking Station", Quantity = 7, Price = 3290m }
+        };
+
+        var totalCount = fallbackProducts.Count;
+        totalPages = (int)Math.Ceiling(totalCount / (double)pageSize);
+        currentPage = Math.Clamp(page, 1, Math.Max(totalPages, 1));
+        products = fallbackProducts
+            .Skip((currentPage - 1) * pageSize)
+            .Take(pageSize)
+            .ToList();
+    }
+
+    private async Task NextPage()
+    {
+        if (currentPage < totalPages)
+        {
+            await LoadProductsAsync(currentPage + 1);
+        }
+    }
+
+    private async Task PreviousPage()
+    {
+        if (currentPage > 1)
+        {
+            await LoadProductsAsync(currentPage - 1);
+        }
+    }
+}
